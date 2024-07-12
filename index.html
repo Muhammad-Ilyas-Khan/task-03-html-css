@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="welcome-section">
+        <img src="./logo.png" alt="Logo" class="logo" />
+      </div>
+      <div class="login-section">
+        <h2>Login</h2>
+        <p>Welcome back! Please login to your account.</p>
+        <form>
+          <br />
+          <label for="username">User Name</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="username@gmail.com"
+          />
+
+          <br />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+          <div class="form-footer">
+            <label><input type="checkbox" name="remember" /> Remember Me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit">Login</button>
+          <p>New User? <a href="#">Signup</a></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
